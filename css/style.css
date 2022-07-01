@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:7%;
+}
+header{
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    padding-top: 70px;
+}
+img{
+    padding: 0 100px 0px 100px;
+}
+h3{
+    font-family: 'Pangolin', cursive;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+footer{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    margin: 15px;
+    display: flex;
+
+}
+
+.screen{
+    text-align: center;
+    background-color: rgb(21, 84, 151);
+    width: 525px;
+    height: 525px;
+    position: relative;
+}
+
+.players{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    display: inline-flex;
+    flex-direction: column;
+    padding:0 20px 10px 20px;
+}
+
+.grid{
+font-family: 'Rock Salt', cursive;
+width: 125px;
+height:105px;
+padding: 8px;
+padding-bottom: 20px;
+font-size: 60px;
+opacity: .75;
+}
+
+.turn-tracker{
+    display: inline-flex;
+    font-size:15px;
+    padding-top: 0;
+}
+
+#grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#top-left{
+
+    border-right: 6px solid grey;
+    border-bottom: 6px solid grey;
+}
+#top-center{
+    border-right: 6px solid grey;
+    border-bottom: 6px solid grey;
+}
+#top-right{
+    border-bottom: 6px solid grey;
+
+}
+#center-left{
+    border-right: 6px solid grey;
+    border-bottom: 6px solid grey;
+}
+#center{
+    border-right: 6px solid grey;
+    border-bottom: 6px solid grey;
+}
+#center-right{
+    border-bottom: 6px solid grey;
+}
+#bottom-left{
+    border-right: 6px solid grey;
+}
+#bottom-center{
+    border-right: 6px solid grey;
+}
+
+#banner{
+    background-color: transparent;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    color: greenyellow;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+
+
